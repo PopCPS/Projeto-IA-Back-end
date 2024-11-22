@@ -31,7 +31,7 @@ def predict():
         probabilities = model.predict_proba(processed_features)
 
         return jsonify({
-            "prediction": int(prediction > 0.5),
+            "prediction": int(prediction > 0.5), 
             "probabilities": probabilities.tolist()
         })
 
