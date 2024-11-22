@@ -23,7 +23,7 @@ jobs:
 
       - name: Activate virtual environment
         run: |
-          source venv/bin/activate  
+          source Projeto-IA/Scripts/activate  
 
       - name: Install dependencies
         run: |
