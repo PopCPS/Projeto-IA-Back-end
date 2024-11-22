@@ -21,10 +21,6 @@ jobs:
         with:
           python-version: '3.9'
 
-      - name: Activate virtual environment
-        run: |
-          source scripts/activate  
-
       - name: Install dependencies
         run: |
           pip install --upgrade pip
